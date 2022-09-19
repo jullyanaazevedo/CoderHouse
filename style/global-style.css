@@ -1,0 +1,84 @@
+html body .card {
+    background: linear-gradient(rgba(233, 233, 7, 0.884), black);
+    margin: none;
+    padding: none;
+}
+
+.card-header {
+    padding: 0%;
+}
+
+.card-header .row {
+    background: black;
+    margin: none;
+    padding: none;
+}
+
+.imglogo {
+    width: 15vw;
+    height: 15vh;
+}
+
+.navbar-nav{
+    justify-content: space-around;
+}
+
+.navbar-collapse {
+    background: black;
+}
+
+.navbar-nav .nav-link {
+    color: yellow;
+
+}
+
+.w-100 {
+    width: 100vw;
+    height: 60vh;
+}
+
+.card-conteudo {
+    align-items: center;
+    margin: 0px 30px 5px 40px;
+}
+
+.card-title {
+    font-size: 2rem;
+    color: whitesmoke;
+    padding-top: 12px;
+
+}
+
+.card-text {
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+.card-footer footer p {
+    font-size: xx-small;
+    color: yellow;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .card-header .row {
+        justify-content: center;
+    }
+
+    .rounded {
+        justify-content: center;
+        width: 40vw;
+        height: 35vh;
+        padding: 3px 30px 3px 30px;
+        margin: 0px;
+    }
+
+    .navbar-nav .nav-link {
+        color: yellow;
+    }
+
+    .navbar-toggler-icon {
+        background: yellow;
+    }
+}
